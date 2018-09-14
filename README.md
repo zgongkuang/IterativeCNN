@@ -9,7 +9,7 @@ Dowload the system matrix folder 'sys_ge690_smat' from https://www.dropbox.com/s
 #### Step 3. 
 Run demo_iterativeCNN.m to get the iterative reconstruction results. 
 #### Note: 
-1. The 3D U-net is trained and the trained model is stored in pretraining_process. If you want to re-train the model based on your own data sets, you can use initialize_residual_cnnoutput.py, by changing it from interface to training mode. 
+1. The 3D U-net is trained and the trained model is stored in pretraining_process. If you want to re-train the model based on your own data sets, you can use Unet3D_test.py, by changing it from test to training mode. 
 2. The results runing on Ubuntu server setting penalty parameter rho = 7.5e-4 are uploaded for reference. 
 
 ## Reference:
