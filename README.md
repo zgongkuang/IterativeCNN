@@ -12,6 +12,8 @@ Run demo_iterativeCNN.m to get the iterative reconstruction results.
 1. The 3D U-net is trained and the trained model is stored in pretraining_process. If you want to re-train the model based on your own data sets, you can use Unet3D_test.py, by changing it from test to training mode. 
 2. The results runing on Ubuntu server setting penalty parameter rho = 7.5e-4 are uploaded for reference. 
 
+## In progress
+Upload training data, upload 2D Unet training as an option.
 ## Reference:
 Gong, K., Guan, J., Kim, K., Zhang, X., Fakhri, G.E., Qi, J. and Li, Q., 2017. Iterative PET image reconstruction using convolutional neural network representation. arXiv preprint arXiv:1710.03344. <br />
 Gong, K., Guan, J., Kim, K., Zhang, X., Yang, J., Seo, Y.,  Fakhri, G.E., Qi, J. and Li, Q., 2018. Iterative PET image reconstruction using convolutional neural network representation. IEEE Transactions on Medical Imaging (in press)
