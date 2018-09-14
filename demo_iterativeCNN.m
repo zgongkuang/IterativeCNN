@@ -46,7 +46,7 @@ mythreshold = 0.1;
 load('../../data/xini.mat','xini');
 xini = reshape(xini,Gopt.imgsiz).* mythreshold;
 %% run recon
-[x_cnnada,out] = eml_admm_cnn_multiplerecon_residual(Gopt, xini,  maxit, myrho, device_num, multiple_iter, subiter);
+[x_cnnada,out] = admm_cnn(Gopt, xini,  maxit, myrho, device_num, multiple_iter, subiter);
 save(sprintf('cnn_%e.mat',myrho),'x_cnnada','out');
 
 
