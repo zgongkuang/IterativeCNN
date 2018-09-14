@@ -1,4 +1,4 @@
-function [output_cnn, out] = eml_admm_cnn_multiplerecon_residual(Gopt, x0, maxit, myrho,device_num,multiple_iter, subiter)
+function [output_cnn, out] = admm_cnn(Gopt, x0, maxit, myrho,device_num,multiple_iter, subiter)
 %--------------------------------------------------------------------------
 % Iterative Convolutional Neural Network (IterCNN) algorithm for PET image
 % reconstruction. The details of IterCNN are described in
