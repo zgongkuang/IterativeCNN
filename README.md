@@ -13,7 +13,7 @@ Run demo_iterativeCNN.m to get the iterative reconstruction results.
 2. The results runing on Ubuntu server setting penalty parameter rho = 7.5e-4 are uploaded for reference. 
 
 ## Reference:
-Gong, K., Guan, J., Kim, K., Zhang, X., Fakhri, G.E., Qi, J. and Li, Q., 2017. Iterative PET image reconstruction using convolutional neural network representation. arXiv preprint arXiv:1710.03344.
+Gong, K., Guan, J., Kim, K., Zhang, X., Fakhri, G.E., Qi, J. and Li, Q., 2017. Iterative PET image reconstruction using convolutional neural network representation. arXiv preprint arXiv:1710.03344. \\
 Gong, K., Guan, J., Kim, K., Zhang, X., Yang, J., Seo, Y.,  Fakhri, G.E., Qi, J. and Li, Q., 2017. Iterative PET image reconstruction using convolutional neural network representation. IEEE Transactions on Medical Imaging, 2018 in press.
 ## License
 This project is licensed under the 3-Clause BSD License - see the [LICENSE](LICENSE) file for details.
