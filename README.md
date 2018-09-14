@@ -9,7 +9,8 @@ Dowload the system matrix folder 'sys_ge690_smat' from https://www.dropbox.com/s
 #### Step 3. 
 Run demo_iterativeCNN.m to get the iterative reconstruction results. 
 #### Note: 
-The CNN model is trained and the trained model is stored in pretraining_process. If you want to re-train the model based on your own data sets, you can use initialize_residual_cnnoutput.py, by changing it from interface to training mode. 
+1. The CNN model is trained and the trained model is stored in pretraining_process. If you want to re-train the model based on your own data sets, you can use initialize_residual_cnnoutput.py, by changing it from interface to training mode. 
+2. The results runing on Ubuntu server setting \rho = 7.5e-4 are uploaded for reference. 
 
 ## Reference:
 Gong, K., Guan, J., Kim, K., Zhang, X., Fakhri, G.E., Qi, J. and Li, Q., 2017. Iterative PET image reconstruction using convolutional neural network representation. arXiv preprint arXiv:1710.03344.
