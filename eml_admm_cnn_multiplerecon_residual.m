@@ -43,8 +43,11 @@ if isempty(maxit)
 end
 %% initialization
 x  = max(mean(x0(:))*1e-9,x0(:)); x(~Gopt.mask) = 0;
-mythrehold = 0.1; % the threshold of the lose dose count compared with high dose, here we use 1:10 during training for the Xcat phantom. 
-load('../../data/norm.mat', 'AN') % nomalization and attenuation file
+mythrehold = 0.1; % the threshold of the lose dose count compared with high dose, here we use 1:10 during training for the Xcat phantom.
+%% Due to github file limit, save normalization files in two separate files
+load('../../data/norm_firsthalf.mat', 'norm1') 
+load('../../data/norm_secondhalf.mat', 'norm2') 
+AN = [norm1;norm2]; clear norm1 norm2;
 load('../../data/randoms.mat','R');% randoms and scatters
 load('../../data/sino.mat','Y');% sinogram data
 AN(isinf(AN)) = 0.0;
