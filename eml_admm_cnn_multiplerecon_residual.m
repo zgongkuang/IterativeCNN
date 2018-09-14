@@ -73,7 +73,7 @@ for it = 1:maxit
         mytemp = reshape(x, imgsiz) ./ myscaling;
         myini = mytemp(trunc_range{1},trunc_range{2},trunc_range{3});
         dump(myini, 'image_firstinput.img');
-        system(sprintf('CUDA_VISIBLE_DEVICES=%d python ../../initialize_residual_cnnoutput.py', device_num));
+        system(sprintf('CUDA_VISIBLE_DEVICES=%d python ../../Unet3D_test.py', device_num));
         temptest = touch('image_firstoutput.img');
         temptest = reshape(temptest, imgsiz_trunc);
         output_cnn = zeros(imgsiz);
@@ -85,7 +85,7 @@ for it = 1:maxit
         mytemp = reshape(output_cnn, imgsiz) ./ myscaling;
         myini =  mytemp(trunc_range{1},trunc_range{2},trunc_range{3});
         dump(myini, 'image_firstinput.img');
-        system(sprintf('CUDA_VISIBLE_DEVICES=%d python ../../initialize_residual_cnnoutput.py', device_num));
+        system(sprintf('CUDA_VISIBLE_DEVICES=%d python ../../Unet3D_test.py', device_num));
         temptest = touch('image_firstoutput.img');
         temptest = reshape(temptest, imgsiz_trunc);
         output_cnn = zeros(imgsiz);
