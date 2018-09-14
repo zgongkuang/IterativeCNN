@@ -122,7 +122,7 @@ for it = 1:maxit
     x_newnetwork = mytemp(trunc_range{1},trunc_range{2},trunc_range{3});
     dump(x_newnetwork, sprintf('image_input.img'));
     myiter = subiter;
-    system(sprintf('CUDA_VISIBLE_DEVICES=%d python ../../BN_unet_1.0_basedonPossion_otsp_new_residual_momentum.py %d %d', device_num, it, myiter));
+    system(sprintf('CUDA_VISIBLE_DEVICES=%d python ../../subproblem_2.py %d %d', device_num, it, myiter));
     %system('rm image_input.img');
     temptest = touch('image_output.img');
     temptest = reshape(temptest, imgsiz_trunc);
