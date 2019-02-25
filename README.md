@@ -14,6 +14,6 @@ Run demo_iterativeCNN.m to get the iterative reconstruction results.
 * If you do not have training data, but have the anatomical prior image, you can check my newly published [DIPRecon method](https://ieeexplore.ieee.org/abstract/document/8581448).
 ### Reference
 Gong, K., Guan, J., Kim, K., Zhang, X., Fakhri, G.E., Qi, J.\* and Li, Q.\*, 2017. [Iterative PET image reconstruction using convolutional neural network representation](https://arxiv.org/pdf/1710.03344.pdf). arXiv preprint arXiv:1710.03344. <br />
-[Gong, K., Guan, J., Kim, K., Zhang, X., Yang, J., Seo, Y.,  Fakhri, G.E., Qi, J.\* and Li, Q.\*, 2018. [Iterative PET image reconstruction using convolutional neural network representation](https://ieeexplore.ieee.org/abstract/document/8463596). IEEE Transactions on Medical Imaging
+Gong, K., Guan, J., Kim, K., Zhang, X., Yang, J., Seo, Y.,  Fakhri, G.E., Qi, J.\* and Li, Q.\*, 2018. [Iterative PET image reconstruction using convolutional neural network representation](https://ieeexplore.ieee.org/abstract/document/8463596). IEEE Transactions on Medical Imaging
 ## License
 This project is licensed under the 3-Clause BSD License - see the [LICENSE](LICENSE) file for details.
