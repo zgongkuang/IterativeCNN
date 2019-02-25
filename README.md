@@ -1,4 +1,6 @@
 # Iterative PET Image Reconstruction Using CNN Representation
+![result](https://user-images.githubusercontent.com/5403514/53367220-90528600-3913-11e9-940f-cc9c96fedd0d.PNG)
+
 ### Prerequisites
 Matlab, Python 2.7, Tensorflow 1.4
 ### Instructions
